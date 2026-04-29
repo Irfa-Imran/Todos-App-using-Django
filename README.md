@@ -21,39 +21,39 @@ A simple Todo web application built with Django that allows users to manage dail
 
 ## Installation
 
-1. Clone the repository
+### 1. Clone the repository
 
-Using bash
+### Using bash
 
 git clone https://github.com/Irfa-Imran/Todos-App-using-Django.git
 
 cd Todos-App-using-Django
 
-2. Create a virtual environment
+### 2. Create a virtual environment
 
 python -m venv venv
 
-3. Activate the virtual environment
+### 3. Activate the virtual environment
 
-for Windows:
+#### for Windows:
 venv\Scripts\activate
 
-for Mac:
+#### for Mac:
 source venv/bin/activate
 
-4. Install dependencies
+### 4. Install dependencies
 
 pip install -r requirements.txt
 
-5. Run migrations
+### 5. Run migrations
 
 python manage.py migrate
 
-6. Start server
+### 6. Start server
 
 python manage.py runserver
 
-7. Open in browser
+### 7. Open in browser
 
 http://127.0.0.1:8000/
 
